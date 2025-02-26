@@ -292,17 +292,17 @@ class HoloGUI(QWidget):
             pywhatkit.playonyt("https://youtu.be/ZU3Tj82gya8?si=jqS5BrLZg9mjmNBw")
 
         elif "my github account" in command or "my github" in command:
-            url = f"https://github.com/Naeem-360"
+            url = f"Your accoutn url"
             webbrowser.open(url)
             talk("Here is your github account", self)
 
         elif "facebook account" in command or "my facebook account" in command:
-            url1 = f"https://web.facebook.com/tanzid.islam.211174/"
+            url1 = f"Your accoutn url"
             webbrowser.open(url1)
             talk("Here's your facebook account", self)
 
         elif "my linkedin" in command or "my linkedin account" in command:
-            url2 = f"https://www.linkedin.com/in/naeem-mahmud-/"
+            url2 = f"Your accoutn url"
             webbrowser.open(url2)
             talk("Here is your linkedIn account", self)
 
