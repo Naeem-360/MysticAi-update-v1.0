@@ -1,41 +1,61 @@
-# MysticAi-update-0.1
+# MysticAI - A Voice Assistant
 
-Feature added 
-1.Overall gui design improvement
-2. Custom button design (toggle, and stop talking bar)
-3. Can now open some social platform directly like facebook, linkedin and github (command = open facebook)
+MysticAI is a voice assistant that can perform various tasks such as opening applications, playing music, retrieving information, controlling volume, and more. It supports both text and voice modes.
 
-Requirements 
-Ensure you have the following installed before running MysticAI: 
-2.Python 3.7+ 
-3.pip (Python package manager) 
-4.The required dependencies (listed below)
+## MysticAI Update 0.1
 
-Installation 
-Clone the repository 
-1.git clone https://github.com/Naeem-360/mysticai.git 
-2.cd mysticai
+### Features Added
+- Overall GUI design improvement
+- Custom button design (toggle and stop talking bar)
+- Can now open some social platforms directly like Facebook, LinkedIn, and GitHub (command = "open Facebook")
 
-Install dependencies Run the following command to install the required libraries: 
-1.pip install -r requirements.txt 
-2.pip install pyttsx3 speechrecognition pywhatkit wikipedia requests beautifulsoup4 noisereduce pyautogui pytz geopy fuzzywuzzy openai dotenv PyQt5
+## Requirements
+Ensure you have the following installed before running MysticAI:
+- Python 3.7+
+- pip (Python package manager)
+- The required dependencies (listed below)
 
-Set up the API key Create a .env file in the project directory and add: 
-1.GITHUB_TOKEN=your_openai_api_key_here (Replace your_openai_api_key_here with your actual API key.)
+## Installation
 
-Running MysticAI Run the following command: 
-1.python ai_1.py This will launch the GUI for MysticAI.
+### 1. Clone the repository
+```sh
+git clone https://github.com/Naeem-360/mysticai.git
+cd mysticai
+```
 
-Usage 
-1.Type or speak a command (e.g., "open Chrome", "play a song", "what's the time"). 
-2.Use "switch to voice" or "switch to text" to change modes. 
-3.Say "help" to see the list of available commands.
+### 2. Install dependencies
+Run the following command to install the required libraries:
+```sh
+pip install -r requirements.txt
+pip install pyttsx3 speechrecognition pywhatkit wikipedia requests beautifulsoup4 noisereduce pyautogui pytz geopy fuzzywuzzy openai dotenv PyQt5
+```
 
-Troubleshooting 
-1.If you encounter missing dependencies, run pip install -r requirements.txt again. 
-2.Ensure your microphone is working for voice commands. 
-3.Check if your API key is correctly set in .env.
+### 3. Set up the API key
+Create a `.env` file in the project directory and add:
+```sh
+GITHUB_TOKEN=your_openai_api_key_here
+```
+Replace `your_openai_api_key_here` with your actual API key.
 
-Contributing Feel free to fork the repository, make improvements, and submit pull requests! 😄
+### 4. Running MysticAI
+Run the following command:
+```sh
+python ai_1.py
+```
+This will launch the GUI for MysticAI.
 
-License This project is open-source under the MIT License.
+## Usage
+- Type or speak a command (e.g., "open Chrome", "play a song", "what's the time").
+- Use "switch to voice" or "switch to text" to change modes.
+- Say "help" to see the list of available commands.
+
+## Troubleshooting
+- If you encounter missing dependencies, run `pip install -r requirements.txt` again.
+- Ensure your microphone is working for voice commands.
+- Check if your API key is correctly set in `.env`.
+
+## Contributing
+Feel free to fork the repository, make improvements, and submit pull requests! 😄
+
+## License
+This project is open-source under the MIT License.
